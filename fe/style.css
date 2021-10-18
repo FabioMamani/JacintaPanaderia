@@ -50,6 +50,20 @@ ul {
     margin: 30px;
 }
 
+.contain-transparency {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(5, 7, 12, 0.26), rgba(5, 7, 12, 0.26));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #010101;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #titular-principal {
     font-family: 'Bebas Neue', cursive;
     font-size: 2.8rem;
@@ -116,7 +130,7 @@ ul {
 .titulado h2 {
     font-family: 'Kaushan Script', cursive;
     font-size: 48px;
-    color: #000000;
+    color: #fcf8f8;
 }
 
 .contain-text {
@@ -194,8 +208,9 @@ section {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     top: 2rem;
+    padding: 20px;
     color: #010101;
-    font-weight: 400;
+    font-weight: 800;
 }
 
 
@@ -242,7 +257,7 @@ section {
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 80vh;
+    height: 100vh;
 }
 
 #products-content {
@@ -317,6 +332,24 @@ section {
     margin-bottom: 80px;
     display: flex;
     justify-content: space-evenly;
+}
+
+.contact-transparency {
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(rgba(5, 7, 12, 0.10), rgba(5, 7, 12, 0.10));
+    display: flex;
+    flex-direction: column;
+}
+
+.info-contact h4 {
+    color: #fcf8f8;
+}
+
+.info-contact p {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 300;
 }
 
 .info-contact i {
