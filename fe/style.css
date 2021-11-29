@@ -31,8 +31,8 @@ ul {
 }
 
 .logo {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 100%;
 }
 
@@ -42,12 +42,19 @@ ul {
 }
 
 .navbar {
-    height: 120px;
+    height: auto;
     padding: 20px;
 }
 
 .navbar-nav .nav-link {
-    margin: 30px;
+    margin: 20px;
+}
+
+.nav-item a:hover {
+    font-size: 20px;
+    color: #010101;
+    cursor: pointer;
+    transition: all 0.3s;
 }
 
 .contain-transparency {

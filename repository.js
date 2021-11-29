@@ -10,10 +10,12 @@ oAuth2Client.setCredentials({
     refresh_token: "1//0h9K7DB1E-E4ZCgYIARAAGBESNwF-L9Ir19IXiJQz6uUntEoeIeWQ2K1U2HGiXPmCsBGUMY-JgibkK1Y8bnswaMt8bjIflg3woDE",
     scope: "https://www.googleapis.com/auth/spreadsheets",
     token_type: "Bearer",
-    expiry_date: 1633356406402
+    expiry_date: 1633356406402,
 });
 
 const sheets = google.sheets({ version: 'v4', auth: oAuth2Client });
+
+
 
 //LEER LOS PRODUCTOS DESDE EL SPREEDSHEET
 async function read() {

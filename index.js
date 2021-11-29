@@ -3,8 +3,9 @@ const bodyParser = require("body-parser");
 const repository = require("./repository");
 const app = express() // INICIALIZA LA APLICACION
 const port = 3000 //NOS MARCA EL PUERTO DONDE VA A CORRER LA APLICACION
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json());
+    //app.use(bodyParser.urlencoded({ extended: true }));
+    //app.use(bodyParser.json());
+app.use(express.json());
 //LISTADO DE PRODUCTOS(sacar esto despues de crear el backend!!!)
 const productos = [{
         id: 1,
