@@ -6,13 +6,13 @@
 
 
 /*###### FUENTES ######
-
 font-family: 'Brygada 1918', serif;
 font-family: 'Kaushan Script', cursive;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Bebas Neue', cursive;
 font-family: 'Poppins', sans-serif;
 font-family: 'Comfortaa', cursive;
+font-family: 'Cookie', cursive;
 TIPOGRAFIA DE LAS CARDS: Comfortaa 15px
 */
 
@@ -54,7 +54,7 @@ ul {
     font-size: 20px;
     color: #010101;
     cursor: pointer;
-    transition: all 0.3s;
+    transition: all 0.1s;
 }
 
 .contain-transparency {
@@ -192,7 +192,7 @@ section {
 }
 
 .carousel-caption {
-    bottom: 260px;
+    bottom: 200px;
     padding-left: 100px;
     padding-right: 100px;
 }
@@ -212,8 +212,8 @@ section {
 }
 
 .carousel-caption p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-family: 'Cookie', cursive;
+    font-size: 28px;
     top: 2rem;
     padding: 20px;
     color: #010101;
